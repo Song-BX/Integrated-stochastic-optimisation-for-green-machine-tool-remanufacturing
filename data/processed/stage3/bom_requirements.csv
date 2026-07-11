@@ -1,0 +1,11 @@
+﻿component_type,required_quantity,replacement_cost_rmb
+spindle,1,23779.45
+chuck,1,9034.22
+bed,1,33721.72
+guideway,2,17624.56
+ball_screw,2,12832.82
+servo_axis,2,11167.55
+turret,1,17107.71
+tailstock,1,7187.04
+hydraulic_system,1,7460.79
+cnc_controller,1,18951.17

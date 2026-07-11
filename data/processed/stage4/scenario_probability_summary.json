@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-06-16T15:31:24.542961+00:00",
+  "scenario_count": 9,
+  "raw_probability_sum": 0.5425454547000002,
+  "saa_probability_sum": 0.9999999999999999,
+  "scenario_ids": [
+    "S001",
+    "S004",
+    "S009",
+    "S012",
+    "S013",
+    "S018",
+    "S019",
+    "S022",
+    "S025"
+  ]
+}

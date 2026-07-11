@@ -1,0 +1,68 @@
+{
+  "generated_at_utc": "2026-06-16T12:15:00.179033+00:00",
+  "instance": {
+    "machine_type_id": "CK6150",
+    "machine_family": "cnc_lathe",
+    "demand_units": 126,
+    "candidate_core_count": 180,
+    "bom_item_count": 10,
+    "average_required_component_count": 13.0,
+    "min_required_life_h": 10000.0,
+    "target_quality_score": 0.7146253968253968,
+    "capacity_by_resource_h": {
+      "assembly": 4598.664910313902,
+      "cleaning": 3802.7539237668166,
+      "drying": 2001.1734304932736,
+      "grinding": 2579.160874439462,
+      "heat_treatment": 682.3164798206278,
+      "incoming_inspection": 1329.8512331838565,
+      "inspection": 4249.5346412556055,
+      "inventory": 2075.7661434977576,
+      "laser": 218.31020179372197,
+      "machining": 4605.3538116591935,
+      "manual_scraping": 2332.2431614349775,
+      "procurement": 1558.4366591928251,
+      "quality_monitoring": 880.0686098654709,
+      "reliability_assessment": 1283.3810538116593,
+      "scrap_handling": 2009.7945067264573,
+      "testing": 2828.9291479820627,
+      "waste_treatment": 264.2306053811659
+    },
+    "route_classes": [
+      "reuse",
+      "repair",
+      "replace",
+      "scrap"
+    ],
+    "route_class_to_route_ids": {
+      "reuse": [
+        "R1",
+        "R2"
+      ],
+      "repair": [
+        "R3",
+        "R5"
+      ],
+      "replace": [
+        "R6"
+      ],
+      "scrap": [
+        "R7"
+      ]
+    },
+    "machine_summary": {
+      "selling_price": 118000.0,
+      "remanufacturing_cost_base_rmb": 72000.0,
+      "estimated_core_acquisition_cost_rmb": 28000.0,
+      "annual_demand_weight": 1.0,
+      "capacity_share": 0.11210762331838565,
+      "order_count": 100,
+      "order_value_rmb": 14484613.9,
+      "average_order_life_requirement_h": 11299.466666666665
+    },
+    "period_filter": {
+      "planning_period_start": null,
+      "planning_period_end": null
+    }
+  }
+}
