@@ -40,10 +40,7 @@ data are anonymised and parameterised for optimisation experiments.
 ## Repository layout
 
 ```text
-.
-├── AGENTS.md
 ├── README.md
-├── data.md
 ├── data/
 │   ├── raw/          # parameterised input data
 │   ├── processed/    # processed model and reporting data
