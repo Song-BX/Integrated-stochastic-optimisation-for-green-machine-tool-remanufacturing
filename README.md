@@ -128,28 +128,6 @@ The generated artifacts are written to:
 - `data/results/stage11/tables/`
 - `data/results/stage11/figures/`
 
-## Manuscript files
-
-The current manuscript draft and Supplementary Information are in `manuscript/`:
-
-- `ijpr_outline_methods.tex`
-- `ijpr_outline_methods.pdf`
-- `ijpr_supplementary_information.tex`
-- `ijpr_supplementary_information.pdf`
-- `references.bib`
-
-The manuscript narrative should be read with the following interpretation:
-
-- Stage 3 and Stage 4 show active recovered-core acceptance and old-part route
-  selection.
-- Stage 5 and Stage 6 show conservative procurement/backlog fallback under
-  stricter reliability, CVaR and selective-assembly screening.
-- Zero environmental or assembly-quality objective coordinates in Pareto tables
-  are optimisation-coordinate values, not literal zero physical impact or zero
-  quality loss.
-- Stage 10 pair-carbon and shared-capacity outputs are strengthening and
-  supplementary evidence, not replacements for the main Stage 6-8 model.
-
 ## Data and GitHub upload notes
 
 The repository includes generated input data and result files. Some CSV/JSON
