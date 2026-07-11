@@ -1,0 +1,181 @@
+{
+  "generated_at_utc": "2026-07-10T13:09:25.592897+00:00",
+  "manifest": [
+    {
+      "completion_id": "saa_scenario_18",
+      "experiment_group": "saa_stability",
+      "source_experiment_id": "saa_scenario_18_optional",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\saa_scenario_18\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing Stage 4 SAA with 18 scenarios."
+    },
+    {
+      "completion_id": "saa_scenario_27",
+      "experiment_group": "saa_stability",
+      "source_experiment_id": "saa_scenario_27_optional",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\saa_scenario_27\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing Stage 4 SAA with 27 scenarios."
+    },
+    {
+      "completion_id": "sensitivity_cvar_lambda_0.0",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_cvar_lambda_0.0",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_cvar_lambda_0.0\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for cvar_lambda=0.0."
+    },
+    {
+      "completion_id": "sensitivity_cvar_lambda_0.11",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_cvar_lambda_0.11",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_cvar_lambda_0.11\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for cvar_lambda=0.11."
+    },
+    {
+      "completion_id": "sensitivity_cvar_lambda_0.22",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_cvar_lambda_0.22",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_cvar_lambda_0.22\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for cvar_lambda=0.22."
+    },
+    {
+      "completion_id": "sensitivity_cvar_lambda_0.44",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_cvar_lambda_0.44",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_cvar_lambda_0.44\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for cvar_lambda=0.44."
+    },
+    {
+      "completion_id": "sensitivity_min_system_reliability_0.9",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_min_system_reliability_0.9",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_min_system_reliability_0.9\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for min_system_reliability=0.9."
+    },
+    {
+      "completion_id": "sensitivity_min_system_reliability_0.93",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_min_system_reliability_0.93",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_min_system_reliability_0.93\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for min_system_reliability=0.93."
+    },
+    {
+      "completion_id": "sensitivity_min_system_reliability_0.95",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_min_system_reliability_0.95",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_min_system_reliability_0.95\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for min_system_reliability=0.95."
+    },
+    {
+      "completion_id": "sensitivity_env_weight_60",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_env_weight_60",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_env_weight_60\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for env_weight=60."
+    },
+    {
+      "completion_id": "sensitivity_env_weight_120",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_env_weight_120",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_env_weight_120\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for env_weight=120."
+    },
+    {
+      "completion_id": "sensitivity_env_weight_240",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_env_weight_240",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_env_weight_240\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for env_weight=240."
+    },
+    {
+      "completion_id": "sensitivity_assembly_shortfall_penalty_rmb_125000",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_assembly_shortfall_penalty_rmb_125000",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_assembly_shortfall_penalty_rmb_125000\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for assembly_shortfall_penalty_rmb=125000."
+    },
+    {
+      "completion_id": "sensitivity_assembly_shortfall_penalty_rmb_250000",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_assembly_shortfall_penalty_rmb_250000",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_assembly_shortfall_penalty_rmb_250000\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for assembly_shortfall_penalty_rmb=250000."
+    },
+    {
+      "completion_id": "sensitivity_assembly_shortfall_penalty_rmb_500000",
+      "experiment_group": "sensitivity_analysis",
+      "source_experiment_id": "sensitivity_assembly_shortfall_penalty_rmb_500000",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage9\\runs\\sensitivity_assembly_shortfall_penalty_rmb_500000\\summary.json",
+      "action": "collect-existing",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "already_available",
+      "reason": "Collect existing sensitivity profile for assembly_shortfall_penalty_rmb=500000."
+    },
+    {
+      "completion_id": "quick_stage8_matheuristic_validation",
+      "experiment_group": "exact_vs_matheuristic",
+      "source_experiment_id": "quick_stage8_matheuristic",
+      "target_path": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage12\\runs\\quick_stage8_matheuristic\\approx_pareto_front.csv",
+      "action": "run-stage8-quick",
+      "priority": "manuscript-critical",
+      "expected_runtime_class": "quick",
+      "status": "planned",
+      "reason": "Quick repair run validates bounded completion without touching canonical Stage 8 outputs."
+    }
+  ]
+}
