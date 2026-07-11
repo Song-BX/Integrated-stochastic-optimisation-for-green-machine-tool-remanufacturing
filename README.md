@@ -44,19 +44,10 @@ data are anonymised and parameterised for optimisation experiments.
 ├── AGENTS.md
 ├── README.md
 ├── data.md
-├── ESPR.pdf
-├── 全模型的建模细节.md
-├── 后续论文实验与模型增强计划.md
 ├── data/
 │   ├── raw/          # parameterised input data
 │   ├── processed/    # processed model and reporting data
 │   └── results/      # optimisation, experiment and figure outputs
-├── manuscript/
-│   ├── ijpr_outline_methods.tex
-│   ├── ijpr_outline_methods.pdf
-│   ├── ijpr_supplementary_information.tex
-│   ├── ijpr_supplementary_information.pdf
-│   └── references.bib
 ├── scripts/          # command-line stage runners
 └── src/              # stage-specific Python packages
 ```
