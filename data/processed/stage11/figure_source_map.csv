@@ -1,0 +1,23 @@
+﻿artifact_id,artifact_type,source_file,source_exists,warnings,generated_at_utc
+F1_model_architecture,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage6\stage6_selective_assembly_report.md,True,existing_drawio_source_preserved,2026-07-10T13:09:24.359004+00:00
+F1_model_architecture,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage7\stage7_pareto_report.md,True,existing_drawio_source_preserved,2026-07-10T13:09:24.359004+00:00
+F1_model_architecture,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage8\stage8_matheuristic_report.md,True,existing_drawio_source_preserved,2026-07-10T13:09:24.359004+00:00
+F1_model_architecture,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage10\stage10_strengthening_report.md,True,existing_drawio_source_preserved,2026-07-10T13:09:24.359004+00:00
+F2_data_to_model_pipeline,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\processed\stage1\validation_report.json,True,existing_drawio_source_preserved,2026-07-10T13:09:24.359004+00:00
+F3_pareto_tradeoff_panels,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage7\grid_solution_summary.csv,True,,2026-07-10T13:09:24.359004+00:00
+F3_pareto_tradeoff_panels,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage7\pareto_front.csv,True,,2026-07-10T13:09:24.359004+00:00
+F4_baseline_ablation_comparison,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage9\baseline_comparison.csv,True,,2026-07-10T13:09:24.359004+00:00
+F4_baseline_ablation_comparison,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage9\ablation_study.csv,True,,2026-07-10T13:09:24.359004+00:00
+F5_matheuristic_convergence,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage8\iteration_log.csv,True,,2026-07-10T13:09:24.359004+00:00
+F5_matheuristic_convergence,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage8\operator_scores.csv,True,,2026-07-10T13:09:24.359004+00:00
+F6_exact_vs_matheuristic_top5,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage9\exact_vs_matheuristic_gap.csv,True,,2026-07-10T13:09:24.359004+00:00
+F6_exact_vs_matheuristic_top5,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage9\top5_benchmark_summary.csv,True,,2026-07-10T13:09:24.359004+00:00
+F7_route_mix_and_operational_shift,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage3\selected_component_routes.csv,True,,2026-07-10T13:09:24.359004+00:00
+F7_route_mix_and_operational_shift,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage4\scenario_selected_component_routes.csv,True,,2026-07-10T13:09:24.359004+00:00
+F7_route_mix_and_operational_shift,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage5\scenario_selected_component_routes.csv,True,,2026-07-10T13:09:24.359004+00:00
+F7_route_mix_and_operational_shift,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage6\scenario_selected_component_routes.csv,True,,2026-07-10T13:09:24.359004+00:00
+F7_route_mix_and_operational_shift,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage9\baseline_comparison.csv,True,,2026-07-10T13:09:24.359004+00:00
+F7_route_mix_and_operational_shift,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage12\operational_reality_audit.csv,True,,2026-07-10T13:09:24.359004+00:00
+F8_stage10_strengthening,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\processed\stage10\environmental_objective_breakdown.csv,True,,2026-07-10T13:09:24.359004+00:00
+F8_stage10_strengthening,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage10\shared_capacity_comparison.csv,True,,2026-07-10T13:09:24.359004+00:00
+F8_stage10_strengthening,figure,D:\File Station\Science\论文WIP\Remanufacturing\data\results\stage10\shared_capacity_utilization.csv,True,,2026-07-10T13:09:24.359004+00:00

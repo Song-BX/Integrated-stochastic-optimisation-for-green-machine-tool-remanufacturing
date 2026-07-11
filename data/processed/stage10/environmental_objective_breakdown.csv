@@ -1,0 +1,5 @@
+﻿component,coefficient_count,nonzero_count,coefficient_sum,coefficient_mean,coefficient_max,nonzero_count_before_pair_carbon,nonzero_count_after_pair_carbon
+route_carbon,1188,1188,46.07105538842083,0.03878034965355289,0.08839418847447976,,
+procurement_embedded_carbon,5200,5200,982948.9700333334,189.02864808333334,2500.0,,
+assembly_pair_carbon,621,621,529.2902099999999,0.8523191787439611,3.216283762281156,,
+environmental_objective_total,21434,7009,983524.3312987217,45.88617762894101,2500.0,6388.0,7009.0

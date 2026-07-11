@@ -1,0 +1,169 @@
+{
+  "generated_at_utc": "2026-06-17T05:28:58.442397+00:00",
+  "machine_types": [
+    "CK6150",
+    "CK6140"
+  ],
+  "period_start": "T0001",
+  "period_end": "T0026",
+  "period_count": 26,
+  "scenario_ids": [
+    "S001",
+    "S004",
+    "S009",
+    "S012",
+    "S013",
+    "S018",
+    "S019",
+    "S022",
+    "S025"
+  ],
+  "scenario_count": 9,
+  "shared_resources": [
+    "machining",
+    "grinding",
+    "inspection",
+    "assembly",
+    "testing",
+    "laser"
+  ],
+  "machine_summaries": {
+    "CK6150": {
+      "machine_type_id": "CK6150",
+      "machine_family": "cnc_lathe",
+      "period_start": "T0001",
+      "period_end": "T0026",
+      "period_count": 26,
+      "scenario_count": 9,
+      "scenario_ids": [
+        "S001",
+        "S004",
+        "S009",
+        "S012",
+        "S013",
+        "S018",
+        "S019",
+        "S022",
+        "S025"
+      ],
+      "component_types": [
+        "ball_screw",
+        "bed",
+        "chuck",
+        "cnc_controller",
+        "guideway",
+        "hydraulic_system",
+        "servo_axis",
+        "spindle",
+        "tailstock",
+        "turret"
+      ],
+      "route_ids": [
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6"
+      ],
+      "resource_types": [
+        "assembly",
+        "cleaning",
+        "drying",
+        "grinding",
+        "heat_treatment",
+        "incoming_inspection",
+        "inspection",
+        "inventory",
+        "laser",
+        "machining",
+        "manual_scraping",
+        "procurement",
+        "quality_monitoring",
+        "reliability_assessment",
+        "scrap_handling",
+        "testing",
+        "waste_treatment"
+      ],
+      "expected_demand_units": 4.462466488155798,
+      "candidate_core_count": 7,
+      "component_instance_count": 78,
+      "min_required_life_h": 10000.0,
+      "target_quality_score": 0.7,
+      "machine_summary": {
+        "selling_price": 118000.0,
+        "remanufacturing_cost_base_rmb": 72000.0,
+        "estimated_core_acquisition_cost_rmb": 28000.0,
+        "annual_demand_weight": 1.0,
+        "capacity_share": 0.11210762331838565
+      }
+    },
+    "CK6140": {
+      "machine_type_id": "CK6140",
+      "machine_family": "cnc_lathe",
+      "period_start": "T0001",
+      "period_end": "T0026",
+      "period_count": 26,
+      "scenario_count": 9,
+      "scenario_ids": [
+        "S001",
+        "S004",
+        "S009",
+        "S012",
+        "S013",
+        "S018",
+        "S019",
+        "S022",
+        "S025"
+      ],
+      "component_types": [
+        "ball_screw",
+        "bed",
+        "chuck",
+        "cnc_controller",
+        "guideway",
+        "hydraulic_system",
+        "servo_axis",
+        "spindle",
+        "tailstock",
+        "turret"
+      ],
+      "route_ids": [
+        "R2",
+        "R3",
+        "R5",
+        "R6"
+      ],
+      "resource_types": [
+        "assembly",
+        "cleaning",
+        "drying",
+        "grinding",
+        "heat_treatment",
+        "incoming_inspection",
+        "inspection",
+        "inventory",
+        "laser",
+        "machining",
+        "manual_scraping",
+        "procurement",
+        "quality_monitoring",
+        "reliability_assessment",
+        "scrap_handling",
+        "testing",
+        "waste_treatment"
+      ],
+      "expected_demand_units": 6.321883377304422,
+      "candidate_core_count": 11,
+      "component_instance_count": 104,
+      "min_required_life_h": 9000.0,
+      "target_quality_score": 0.7,
+      "machine_summary": {
+        "selling_price": 92000.0,
+        "remanufacturing_cost_base_rmb": 57000.0,
+        "estimated_core_acquisition_cost_rmb": 22000.0,
+        "annual_demand_weight": 0.9,
+        "capacity_share": 0.10089686098654709
+      }
+    }
+  }
+}
