@@ -1,0 +1,2 @@
+﻿check_name,severity,file_name,message,row_number,column_name,observed_value,expected_value
+route_transition_probability_sum,warning,route_state_transition.csv,"Transition probability sums are within failure tolerance 1e-05, but 163 rows exceed warning tolerance 1e-06.",,,max_deviation=2.0000000000575113e-06,<= 1e-05

@@ -1,0 +1,494 @@
+{
+  "generated_at_utc": "2026-06-16T11:20:45.379924+00:00",
+  "expected_total_rows": 273013,
+  "expected_total_size_mb": 353.13,
+  "catalogue_totals": {
+    "file_count": 28,
+    "existing_file_count": 28,
+    "total_rows": 273013,
+    "total_size_bytes": 370288388,
+    "total_size_mb": 353.13
+  },
+  "expected_files": [
+    "assembly_candidates.csv",
+    "assembly_compatibility.csv",
+    "assembly_requirements.csv",
+    "baseline_rules.csv",
+    "bom.csv",
+    "capacity_calendar.csv",
+    "component_inspection.csv",
+    "component_quality_scenarios.csv",
+    "demand_scenarios.csv",
+    "environmental_parameters.csv",
+    "historical_performance.csv",
+    "initial_inventory.csv",
+    "machine_types.csv",
+    "machines.csv",
+    "orders.csv",
+    "processing_parameters.csv",
+    "procurement_parameters.csv",
+    "quality_states.csv",
+    "reliability_parameters.csv",
+    "returned_cores.csv",
+    "risk_parameters.csv",
+    "route_feasibility.csv",
+    "route_operations.csv",
+    "route_outcome_scenarios.csv",
+    "route_state_transition.csv",
+    "routes.csv",
+    "scenarios.csv",
+    "time_periods.csv"
+  ],
+  "expected_row_counts": {
+    "time_periods.csv": 314,
+    "machine_types.csv": 15,
+    "bom.csv": 140,
+    "returned_cores.csv": 1232,
+    "component_inspection.csv": 8852,
+    "quality_states.csv": 4,
+    "routes.csv": 7,
+    "route_feasibility.csv": 868,
+    "route_operations.csv": 57,
+    "processing_parameters.csv": 2908,
+    "machines.csv": 47,
+    "orders.csv": 607,
+    "capacity_calendar.csv": 14758,
+    "route_state_transition.csv": 1173,
+    "assembly_requirements.csv": 84,
+    "assembly_candidates.csv": 19876,
+    "assembly_compatibility.csv": 14110,
+    "procurement_parameters.csv": 474,
+    "initial_inventory.csv": 263,
+    "environmental_parameters.csv": 171,
+    "reliability_parameters.csv": 1173,
+    "risk_parameters.csv": 10557,
+    "scenarios.csv": 27,
+    "component_quality_scenarios.csv": 3564,
+    "route_outcome_scenarios.csv": 40780,
+    "demand_scenarios.csv": 127170,
+    "baseline_rules.csv": 22,
+    "historical_performance.csv": 23760
+  },
+  "primary_keys": {
+    "assembly_candidates.csv": [
+      "assembly_candidate_id"
+    ],
+    "assembly_compatibility.csv": [
+      "compatibility_id"
+    ],
+    "assembly_requirements.csv": [
+      "assembly_requirement_id"
+    ],
+    "baseline_rules.csv": [
+      "baseline_rule_id"
+    ],
+    "bom.csv": [
+      "machine_type_id",
+      "bom_item_id"
+    ],
+    "capacity_calendar.csv": [
+      "period_id",
+      "machine_id"
+    ],
+    "component_inspection.csv": [
+      "component_instance_id"
+    ],
+    "component_quality_scenarios.csv": [
+      "scenario_id",
+      "machine_type_id",
+      "component_type"
+    ],
+    "demand_scenarios.csv": [
+      "demand_scenario_id"
+    ],
+    "environmental_parameters.csv": [
+      "environmental_param_id"
+    ],
+    "historical_performance.csv": [
+      "performance_record_id"
+    ],
+    "initial_inventory.csv": [
+      "inventory_item_id"
+    ],
+    "machine_types.csv": [
+      "machine_type_id"
+    ],
+    "machines.csv": [
+      "machine_id"
+    ],
+    "orders.csv": [
+      "order_id"
+    ],
+    "processing_parameters.csv": [
+      "component_type",
+      "quality_state",
+      "route_id",
+      "operation_id"
+    ],
+    "procurement_parameters.csv": [
+      "procurement_param_id"
+    ],
+    "quality_states.csv": [
+      "quality_state"
+    ],
+    "reliability_parameters.csv": [
+      "reliability_param_id"
+    ],
+    "returned_cores.csv": [
+      "core_id"
+    ],
+    "risk_parameters.csv": [
+      "risk_param_id"
+    ],
+    "route_feasibility.csv": [
+      "component_type",
+      "quality_state",
+      "route_id"
+    ],
+    "route_operations.csv": [
+      "route_id",
+      "operation_seq"
+    ],
+    "route_outcome_scenarios.csv": [
+      "route_outcome_scenario_id"
+    ],
+    "route_state_transition.csv": [
+      "component_type",
+      "quality_state_before",
+      "route_id",
+      "scenario_label"
+    ],
+    "routes.csv": [
+      "route_id"
+    ],
+    "scenarios.csv": [
+      "scenario_id"
+    ],
+    "time_periods.csv": [
+      "period_id"
+    ]
+  },
+  "foreign_keys": [
+    {
+      "name": "bom.machine_type_id",
+      "source_file": "bom.csv",
+      "source_columns": [
+        "machine_type_id"
+      ],
+      "target_file": "machine_types.csv",
+      "target_columns": [
+        "machine_type_id"
+      ]
+    },
+    {
+      "name": "orders.machine_type_id",
+      "source_file": "orders.csv",
+      "source_columns": [
+        "machine_type_id"
+      ],
+      "target_file": "machine_types.csv",
+      "target_columns": [
+        "machine_type_id"
+      ]
+    },
+    {
+      "name": "returned_cores.machine_type_id",
+      "source_file": "returned_cores.csv",
+      "source_columns": [
+        "machine_type_id"
+      ],
+      "target_file": "machine_types.csv",
+      "target_columns": [
+        "machine_type_id"
+      ]
+    },
+    {
+      "name": "capacity_calendar.machine_id",
+      "source_file": "capacity_calendar.csv",
+      "source_columns": [
+        "machine_id"
+      ],
+      "target_file": "machines.csv",
+      "target_columns": [
+        "machine_id"
+      ]
+    },
+    {
+      "name": "capacity_calendar.period_id",
+      "source_file": "capacity_calendar.csv",
+      "source_columns": [
+        "period_id"
+      ],
+      "target_file": "time_periods.csv",
+      "target_columns": [
+        "period_id"
+      ]
+    },
+    {
+      "name": "component_inspection.core_id",
+      "source_file": "component_inspection.csv",
+      "source_columns": [
+        "core_id"
+      ],
+      "target_file": "returned_cores.csv",
+      "target_columns": [
+        "core_id"
+      ]
+    },
+    {
+      "name": "component_inspection.bom_item_id",
+      "source_file": "component_inspection.csv",
+      "source_columns": [
+        "machine_type_id",
+        "bom_item_id"
+      ],
+      "target_file": "bom.csv",
+      "target_columns": [
+        "machine_type_id",
+        "bom_item_id"
+      ]
+    },
+    {
+      "name": "route_feasibility.route_id",
+      "source_file": "route_feasibility.csv",
+      "source_columns": [
+        "route_id"
+      ],
+      "target_file": "routes.csv",
+      "target_columns": [
+        "route_id"
+      ]
+    },
+    {
+      "name": "route_feasibility.quality_state",
+      "source_file": "route_feasibility.csv",
+      "source_columns": [
+        "quality_state"
+      ],
+      "target_file": "quality_states.csv",
+      "target_columns": [
+        "quality_state"
+      ]
+    },
+    {
+      "name": "route_operations.route_id",
+      "source_file": "route_operations.csv",
+      "source_columns": [
+        "route_id"
+      ],
+      "target_file": "routes.csv",
+      "target_columns": [
+        "route_id"
+      ]
+    },
+    {
+      "name": "processing_parameters.route_id",
+      "source_file": "processing_parameters.csv",
+      "source_columns": [
+        "route_id"
+      ],
+      "target_file": "routes.csv",
+      "target_columns": [
+        "route_id"
+      ]
+    },
+    {
+      "name": "processing_parameters.quality_state",
+      "source_file": "processing_parameters.csv",
+      "source_columns": [
+        "quality_state"
+      ],
+      "target_file": "quality_states.csv",
+      "target_columns": [
+        "quality_state"
+      ]
+    },
+    {
+      "name": "route_state_transition.route_id",
+      "source_file": "route_state_transition.csv",
+      "source_columns": [
+        "route_id"
+      ],
+      "target_file": "routes.csv",
+      "target_columns": [
+        "route_id"
+      ]
+    },
+    {
+      "name": "route_state_transition.quality_state_before",
+      "source_file": "route_state_transition.csv",
+      "source_columns": [
+        "quality_state_before"
+      ],
+      "target_file": "quality_states.csv",
+      "target_columns": [
+        "quality_state"
+      ]
+    },
+    {
+      "name": "assembly_requirements.machine_type_id",
+      "source_file": "assembly_requirements.csv",
+      "source_columns": [
+        "machine_type_id"
+      ],
+      "target_file": "machine_types.csv",
+      "target_columns": [
+        "machine_type_id"
+      ]
+    },
+    {
+      "name": "assembly_candidates.assembly_requirement_id",
+      "source_file": "assembly_candidates.csv",
+      "source_columns": [
+        "assembly_requirement_id"
+      ],
+      "target_file": "assembly_requirements.csv",
+      "target_columns": [
+        "assembly_requirement_id"
+      ]
+    },
+    {
+      "name": "assembly_candidates.machine_type_id",
+      "source_file": "assembly_candidates.csv",
+      "source_columns": [
+        "machine_type_id"
+      ],
+      "target_file": "machine_types.csv",
+      "target_columns": [
+        "machine_type_id"
+      ]
+    },
+    {
+      "name": "assembly_candidates.component_instance_id",
+      "source_file": "assembly_candidates.csv",
+      "source_columns": [
+        "component_instance_id"
+      ],
+      "target_file": "component_inspection.csv",
+      "target_columns": [
+        "component_instance_id"
+      ]
+    },
+    {
+      "name": "assembly_compatibility.assembly_requirement_id",
+      "source_file": "assembly_compatibility.csv",
+      "source_columns": [
+        "assembly_requirement_id"
+      ],
+      "target_file": "assembly_requirements.csv",
+      "target_columns": [
+        "assembly_requirement_id"
+      ]
+    },
+    {
+      "name": "assembly_compatibility.candidate_i_id",
+      "source_file": "assembly_compatibility.csv",
+      "source_columns": [
+        "candidate_i_id"
+      ],
+      "target_file": "assembly_candidates.csv",
+      "target_columns": [
+        "assembly_candidate_id"
+      ]
+    },
+    {
+      "name": "assembly_compatibility.candidate_j_id",
+      "source_file": "assembly_compatibility.csv",
+      "source_columns": [
+        "candidate_j_id"
+      ],
+      "target_file": "assembly_candidates.csv",
+      "target_columns": [
+        "assembly_candidate_id"
+      ]
+    },
+    {
+      "name": "scenarios_to_component_quality",
+      "source_file": "component_quality_scenarios.csv",
+      "source_columns": [
+        "scenario_id"
+      ],
+      "target_file": "scenarios.csv",
+      "target_columns": [
+        "scenario_id"
+      ]
+    },
+    {
+      "name": "scenarios_to_route_outcome",
+      "source_file": "route_outcome_scenarios.csv",
+      "source_columns": [
+        "scenario_id"
+      ],
+      "target_file": "scenarios.csv",
+      "target_columns": [
+        "scenario_id"
+      ]
+    },
+    {
+      "name": "route_outcome.evaluated_route_id",
+      "source_file": "route_outcome_scenarios.csv",
+      "source_columns": [
+        "evaluated_route_id"
+      ],
+      "target_file": "routes.csv",
+      "target_columns": [
+        "route_id"
+      ]
+    },
+    {
+      "name": "scenarios_to_demand",
+      "source_file": "demand_scenarios.csv",
+      "source_columns": [
+        "scenario_id"
+      ],
+      "target_file": "scenarios.csv",
+      "target_columns": [
+        "scenario_id"
+      ]
+    },
+    {
+      "name": "demand.machine_type_id",
+      "source_file": "demand_scenarios.csv",
+      "source_columns": [
+        "machine_type_id"
+      ],
+      "target_file": "machine_types.csv",
+      "target_columns": [
+        "machine_type_id"
+      ]
+    },
+    {
+      "name": "demand.period_id",
+      "source_file": "demand_scenarios.csv",
+      "source_columns": [
+        "period_id"
+      ],
+      "target_file": "time_periods.csv",
+      "target_columns": [
+        "period_id"
+      ]
+    },
+    {
+      "name": "baseline_to_performance",
+      "source_file": "historical_performance.csv",
+      "source_columns": [
+        "baseline_rule_id"
+      ],
+      "target_file": "baseline_rules.csv",
+      "target_columns": [
+        "baseline_rule_id"
+      ]
+    },
+    {
+      "name": "performance.machine_type_id",
+      "source_file": "historical_performance.csv",
+      "source_columns": [
+        "machine_type_id"
+      ],
+      "target_file": "machine_types.csv",
+      "target_columns": [
+        "machine_type_id"
+      ]
+    }
+  ]
+}

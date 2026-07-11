@@ -1,0 +1,1630 @@
+{
+  "generated_at_utc": "2026-06-16T11:20:45.379924+00:00",
+  "summary": {
+    "passed": 161,
+    "warning": 1,
+    "failed": 0
+  },
+  "issues": [
+    {
+      "check_name": "file_existence",
+      "severity": "passed",
+      "file_name": "data/raw",
+      "message": "All 28 expected CSV files exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "total_row_count",
+      "severity": "passed",
+      "file_name": "data/raw",
+      "message": "Total row count matches expected 273013.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "time_periods.csv",
+      "message": "Row count matches expected 314.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "machine_types.csv",
+      "message": "Row count matches expected 15.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "bom.csv",
+      "message": "Row count matches expected 140.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "returned_cores.csv",
+      "message": "Row count matches expected 1232.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "component_inspection.csv",
+      "message": "Row count matches expected 8852.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "quality_states.csv",
+      "message": "Row count matches expected 4.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "routes.csv",
+      "message": "Row count matches expected 7.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "route_feasibility.csv",
+      "message": "Row count matches expected 868.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "route_operations.csv",
+      "message": "Row count matches expected 57.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "processing_parameters.csv",
+      "message": "Row count matches expected 2908.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "machines.csv",
+      "message": "Row count matches expected 47.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "orders.csv",
+      "message": "Row count matches expected 607.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "capacity_calendar.csv",
+      "message": "Row count matches expected 14758.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "route_state_transition.csv",
+      "message": "Row count matches expected 1173.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "assembly_requirements.csv",
+      "message": "Row count matches expected 84.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "assembly_candidates.csv",
+      "message": "Row count matches expected 19876.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "assembly_compatibility.csv",
+      "message": "Row count matches expected 14110.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "procurement_parameters.csv",
+      "message": "Row count matches expected 474.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "initial_inventory.csv",
+      "message": "Row count matches expected 263.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "environmental_parameters.csv",
+      "message": "Row count matches expected 171.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "reliability_parameters.csv",
+      "message": "Row count matches expected 1173.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "risk_parameters.csv",
+      "message": "Row count matches expected 10557.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "scenarios.csv",
+      "message": "Row count matches expected 27.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "component_quality_scenarios.csv",
+      "message": "Row count matches expected 3564.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "route_outcome_scenarios.csv",
+      "message": "Row count matches expected 40780.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "demand_scenarios.csv",
+      "message": "Row count matches expected 127170.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "baseline_rules.csv",
+      "message": "Row count matches expected 22.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "file_row_count",
+      "severity": "passed",
+      "file_name": "historical_performance.csv",
+      "message": "Row count matches expected 23760.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "assembly_candidates.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "assembly_compatibility.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "assembly_requirements.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "baseline_rules.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "bom.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "capacity_calendar.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "component_inspection.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "component_quality_scenarios.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "demand_scenarios.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "environmental_parameters.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "historical_performance.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "initial_inventory.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "machine_types.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "machines.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "orders.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "processing_parameters.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "procurement_parameters.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "quality_states.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "reliability_parameters.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "returned_cores.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "risk_parameters.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "route_feasibility.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "route_operations.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "route_outcome_scenarios.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "route_state_transition.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "routes.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "scenarios.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_primary_key_columns",
+      "severity": "passed",
+      "file_name": "time_periods.csv",
+      "message": "Primary-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "required_foreign_key_columns",
+      "severity": "passed",
+      "file_name": "data/raw",
+      "message": "All configured foreign-key columns exist.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "assembly_candidates.csv",
+      "message": "Primary key ('assembly_candidate_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "assembly_compatibility.csv",
+      "message": "Primary key ('compatibility_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "assembly_requirements.csv",
+      "message": "Primary key ('assembly_requirement_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "baseline_rules.csv",
+      "message": "Primary key ('baseline_rule_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "bom.csv",
+      "message": "Primary key ('machine_type_id', 'bom_item_id') is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "capacity_calendar.csv",
+      "message": "Primary key ('period_id', 'machine_id') is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "component_inspection.csv",
+      "message": "Primary key ('component_instance_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "component_quality_scenarios.csv",
+      "message": "Primary key ('scenario_id', 'machine_type_id', 'component_type') is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "demand_scenarios.csv",
+      "message": "Primary key ('demand_scenario_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "environmental_parameters.csv",
+      "message": "Primary key ('environmental_param_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "historical_performance.csv",
+      "message": "Primary key ('performance_record_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "initial_inventory.csv",
+      "message": "Primary key ('inventory_item_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "machine_types.csv",
+      "message": "Primary key ('machine_type_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "machines.csv",
+      "message": "Primary key ('machine_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "orders.csv",
+      "message": "Primary key ('order_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "processing_parameters.csv",
+      "message": "Primary key ('component_type', 'quality_state', 'route_id', 'operation_id') is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "procurement_parameters.csv",
+      "message": "Primary key ('procurement_param_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "quality_states.csv",
+      "message": "Primary key ('quality_state',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "reliability_parameters.csv",
+      "message": "Primary key ('reliability_param_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "returned_cores.csv",
+      "message": "Primary key ('core_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "risk_parameters.csv",
+      "message": "Primary key ('risk_param_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "route_feasibility.csv",
+      "message": "Primary key ('component_type', 'quality_state', 'route_id') is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "route_operations.csv",
+      "message": "Primary key ('route_id', 'operation_seq') is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "route_outcome_scenarios.csv",
+      "message": "Primary key ('route_outcome_scenario_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "route_state_transition.csv",
+      "message": "Primary key ('component_type', 'quality_state_before', 'route_id', 'scenario_label') is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "routes.csv",
+      "message": "Primary key ('route_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "scenarios.csv",
+      "message": "Primary key ('scenario_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "primary_key",
+      "severity": "passed",
+      "file_name": "time_periods.csv",
+      "message": "Primary key ('period_id',) is unique and nonblank.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "bom.csv",
+      "message": "bom.machine_type_id: 140 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "orders.csv",
+      "message": "orders.machine_type_id: 607 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "returned_cores.csv",
+      "message": "returned_cores.machine_type_id: 1232 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "capacity_calendar.csv",
+      "message": "capacity_calendar.machine_id: 14758 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "capacity_calendar.csv",
+      "message": "capacity_calendar.period_id: 14758 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "component_inspection.csv",
+      "message": "component_inspection.core_id: 8852 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "component_inspection.csv",
+      "message": "component_inspection.bom_item_id: 8852 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "route_feasibility.csv",
+      "message": "route_feasibility.route_id: 868 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "route_feasibility.csv",
+      "message": "route_feasibility.quality_state: 868 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "route_operations.csv",
+      "message": "route_operations.route_id: 57 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "processing_parameters.csv",
+      "message": "processing_parameters.route_id: 2908 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "processing_parameters.csv",
+      "message": "processing_parameters.quality_state: 2908 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "route_state_transition.csv",
+      "message": "route_state_transition.route_id: 1173 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "route_state_transition.csv",
+      "message": "route_state_transition.quality_state_before: 1173 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "assembly_requirements.csv",
+      "message": "assembly_requirements.machine_type_id: 84 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "assembly_candidates.csv",
+      "message": "assembly_candidates.assembly_requirement_id: 19876 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "assembly_candidates.csv",
+      "message": "assembly_candidates.machine_type_id: 19876 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "assembly_candidates.csv",
+      "message": "assembly_candidates.component_instance_id: 17994 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "assembly_compatibility.csv",
+      "message": "assembly_compatibility.assembly_requirement_id: 14110 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "assembly_compatibility.csv",
+      "message": "assembly_compatibility.candidate_i_id: 14110 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "assembly_compatibility.csv",
+      "message": "assembly_compatibility.candidate_j_id: 14110 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "component_quality_scenarios.csv",
+      "message": "scenarios_to_component_quality: 3564 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "route_outcome_scenarios.csv",
+      "message": "scenarios_to_route_outcome: 40780 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "route_outcome_scenarios.csv",
+      "message": "route_outcome.evaluated_route_id: 40780 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "demand_scenarios.csv",
+      "message": "scenarios_to_demand: 127170 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "demand_scenarios.csv",
+      "message": "demand.machine_type_id: 127170 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "demand_scenarios.csv",
+      "message": "demand.period_id: 127170 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "historical_performance.csv",
+      "message": "baseline_to_performance: 23760 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "foreign_key",
+      "severity": "passed",
+      "file_name": "historical_performance.csv",
+      "message": "performance.machine_type_id: 23760 references are valid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "scenario_probability_sum",
+      "severity": "passed",
+      "file_name": "scenarios.csv",
+      "message": "Scenario probabilities sum to 1.0000000000.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "demand_grid",
+      "severity": "passed",
+      "file_name": "demand_scenarios.csv",
+      "message": "Observed row count 127170 matches expected grid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "component_quality_grid",
+      "severity": "passed",
+      "file_name": "component_quality_scenarios.csv",
+      "message": "Observed row count 3564 matches expected grid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "historical_performance_grid",
+      "severity": "passed",
+      "file_name": "historical_performance.csv",
+      "message": "Observed row count 23760 matches expected grid.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "quality_state_ranges",
+      "severity": "passed",
+      "file_name": "quality_states.csv",
+      "message": "A/B/C/D quality ranges cover 0-1 without gaps.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "route_transition_probability_sum",
+      "severity": "warning",
+      "file_name": "route_state_transition.csv",
+      "message": "Transition probability sums are within failure tolerance 1e-05, but 163 rows exceed warning tolerance 1e-06.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": "max_deviation=2.0000000000575113e-06",
+      "expected_value": "<= 1e-05"
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "assembly_candidates.csv",
+      "message": "Probability columns are within [0, 1]: 5 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "component_inspection.csv",
+      "message": "Probability columns are within [0, 1]: 2 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "component_quality_scenarios.csv",
+      "message": "Probability columns are within [0, 1]: 21 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "environmental_parameters.csv",
+      "message": "Probability columns are within [0, 1]: 5 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "reliability_parameters.csv",
+      "message": "Probability columns are within [0, 1]: 12 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "risk_parameters.csv",
+      "message": "Probability columns are within [0, 1]: 3 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "route_feasibility.csv",
+      "message": "Probability columns are within [0, 1]: 7 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "route_operations.csv",
+      "message": "Probability columns are within [0, 1]: 3 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "route_outcome_scenarios.csv",
+      "message": "Probability columns are within [0, 1]: 16 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "route_state_transition.csv",
+      "message": "Probability columns are within [0, 1]: 18 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "probability_range",
+      "severity": "passed",
+      "file_name": "scenarios.csv",
+      "message": "Probability columns are within [0, 1]: 10 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "assembly_candidates.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 13 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "assembly_compatibility.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 11 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "assembly_requirements.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 4 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "baseline_rules.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 18 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "bom.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 6 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "capacity_calendar.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 26 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "component_inspection.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 8 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "component_quality_scenarios.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 12 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "demand_scenarios.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 40 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "environmental_parameters.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 29 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "historical_performance.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 31 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "initial_inventory.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 20 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "machine_types.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 14 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "machines.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 19 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "orders.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 10 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "processing_parameters.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 31 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "procurement_parameters.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 16 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "quality_states.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 9 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "reliability_parameters.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 23 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "returned_cores.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 9 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "risk_parameters.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 13 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "route_feasibility.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 11 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "route_operations.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 15 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "route_outcome_scenarios.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 27 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "route_state_transition.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 4 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "routes.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 10 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "scenarios.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 25 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "nonnegative_numeric_ranges",
+      "severity": "passed",
+      "file_name": "time_periods.csv",
+      "message": "Nonnegative numeric keyword columns are valid: 11 columns checked.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    },
+    {
+      "check_name": "baseline_weight_sum",
+      "severity": "passed",
+      "file_name": "baseline_rules.csv",
+      "message": "All baseline objective weights sum to 1 within 1e-06.",
+      "row_number": null,
+      "column_name": null,
+      "observed_value": null,
+      "expected_value": null
+    }
+  ]
+}
