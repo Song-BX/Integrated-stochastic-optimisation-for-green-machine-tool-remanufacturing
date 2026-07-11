@@ -1,0 +1,219 @@
+{
+  "generated_at_utc": "2026-06-17T03:04:23.851168+00:00",
+  "instance": {
+    "machine_type_id": "CK6150",
+    "machine_family": "cnc_lathe",
+    "period_start": "T0001",
+    "period_end": "T0052",
+    "period_count": 52,
+    "scenario_count": 9,
+    "scenario_ids": [
+      "S001",
+      "S004",
+      "S009",
+      "S012",
+      "S013",
+      "S018",
+      "S019",
+      "S022",
+      "S025"
+    ],
+    "component_types": [
+      "ball_screw",
+      "bed",
+      "chuck",
+      "cnc_controller",
+      "guideway",
+      "hydraulic_system",
+      "servo_axis",
+      "spindle",
+      "tailstock",
+      "turret"
+    ],
+    "route_ids": [
+      "R6"
+    ],
+    "resource_types": [
+      "assembly",
+      "cleaning",
+      "drying",
+      "grinding",
+      "heat_treatment",
+      "incoming_inspection",
+      "inspection",
+      "inventory",
+      "laser",
+      "machining",
+      "manual_scraping",
+      "procurement",
+      "quality_monitoring",
+      "reliability_assessment",
+      "scrap_handling",
+      "testing",
+      "waste_treatment"
+    ],
+    "expected_demand_units": 17.492459785047387,
+    "candidate_core_count": 15,
+    "component_instance_count": 130,
+    "min_required_life_h": 10000.0,
+    "target_quality_score": 0.7,
+    "machine_summary": {
+      "selling_price": 118000.0,
+      "remanufacturing_cost_base_rmb": 72000.0,
+      "estimated_core_acquisition_cost_rmb": 28000.0,
+      "annual_demand_weight": 1.0,
+      "capacity_share": 0.11210762331838565
+    },
+    "min_system_reliability": 0.93,
+    "chance_alpha": 0.95,
+    "stage4_route_candidate_count": 21926,
+    "stage5_route_candidate_count": 1188,
+    "chance_pass_rate": 0.05418224938429262,
+    "assembly_time_granularity": "scenario_total",
+    "pairwise_mode": "sparse_exact",
+    "candidate_pool_mode": "stage5_consistent_with_new_backup",
+    "assembly_requirement_count": 6,
+    "assembly_candidate_count": 80,
+    "assembly_pair_count": 69,
+    "assembly_pool_summary": {
+      "requirement_count": 6,
+      "candidate_count": 80,
+      "pair_count": 69,
+      "new_backup_candidate_count": 80,
+      "old_stage5_candidate_count": 0,
+      "hard_pair_count": 63,
+      "soft_pair_count": 6,
+      "by_requirement": {
+        "AR_CK6150_01_spindle_radial_runout": {
+          "candidate_count": 13,
+          "pair_count": 21,
+          "hard_pair_count": 16,
+          "soft_pair_count": 5
+        },
+        "AR_CK6150_02_spindle_bed_parallelism": {
+          "candidate_count": 10,
+          "pair_count": 9,
+          "hard_pair_count": 9,
+          "soft_pair_count": 0
+        },
+        "AR_CK6150_03_guideway_pair_parallelism": {
+          "candidate_count": 5,
+          "pair_count": 2,
+          "hard_pair_count": 2,
+          "soft_pair_count": 0
+        },
+        "AR_CK6150_04_feed_axis_backlash": {
+          "candidate_count": 24,
+          "pair_count": 24,
+          "hard_pair_count": 23,
+          "soft_pair_count": 1
+        },
+        "AR_CK6150_05_tailstock_coaxiality": {
+          "candidate_count": 6,
+          "pair_count": 2,
+          "hard_pair_count": 2,
+          "soft_pair_count": 0
+        },
+        "AR_CK6150_06_turret_tool_position_repeatability": {
+          "candidate_count": 22,
+          "pair_count": 11,
+          "hard_pair_count": 11,
+          "soft_pair_count": 0
+        }
+      }
+    },
+    "multiobjective_method": "augmented_epsilon_constraint"
+  },
+  "model_summary": {
+    "variable_count": 21434,
+    "constraint_count": 15939,
+    "binary_variable_count": 2544,
+    "general_integer_variable_count": 10924,
+    "integer_variable_count": 13468,
+    "objective_vector_summary": {
+      "economic_risk": {
+        "length": 21434,
+        "nonzero_count": 20192,
+        "min_coefficient": 0.0,
+        "max_coefficient": 80689.29,
+        "finite": true
+      },
+      "environmental_impact": {
+        "length": 21434,
+        "nonzero_count": 6388,
+        "min_coefficient": 0.0,
+        "max_coefficient": 2500.0,
+        "finite": true
+      },
+      "assembly_quality_loss": {
+        "length": 21434,
+        "nonzero_count": 675,
+        "min_coefficient": 0.0,
+        "max_coefficient": 250000.0,
+        "finite": true
+      }
+    }
+  },
+  "config": {
+    "raw_dir": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\raw",
+    "stage1_report": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\processed\\stage1\\validation_report.json",
+    "processed_dir": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\processed\\stage7",
+    "results_dir": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage7",
+    "stage4_results_dir": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage4",
+    "stage5_results_dir": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage5",
+    "stage6_results_dir": "D:\\File Station\\Science\\论文WIP\\Remanufacturing\\data\\results\\stage6",
+    "machine_type_id": "CK6150",
+    "period_start": "T0001",
+    "period_count": 52,
+    "processing_window_periods": 8,
+    "scenario_mode": "macro_representative_9",
+    "scenario_ids": [
+      "S001",
+      "S004",
+      "S009",
+      "S012",
+      "S013",
+      "S018",
+      "S019",
+      "S022",
+      "S025"
+    ],
+    "baseline_rule_id": "BR14",
+    "risk_baseline_rule_id": "BR14",
+    "selective_assembly_baseline_rule_id": "BR08",
+    "no_selective_assembly_ablation_rule_id": "BR18",
+    "multiobjective_method": "augmented_epsilon_constraint",
+    "primary_objective": "economic_risk",
+    "epsilon_objective_env": "environmental_impact",
+    "epsilon_objective_assembly": "assembly_quality_loss",
+    "epsilon_grid_size_env": 5,
+    "epsilon_grid_size_assembly": 5,
+    "payoff_cost_allowance": 0.3,
+    "augmentation_delta_factor": 0.0001,
+    "env_weight": 120.0,
+    "quality_weight": 5000.0,
+    "reliability_weight": 0.55,
+    "inventory_holding_rate": 0.012,
+    "backlog_penalty_rmb_per_unit_period": null,
+    "procurement_cost_multiplier": 1.12,
+    "recourse_procurement_premium": 1.18,
+    "overtime_penalty_rmb_per_h": 220.0,
+    "capacity_share_floor": 0.03,
+    "capacity_share_multiplier": 1.0,
+    "quality_floor": 0.62,
+    "cvar_confidence": 0.95,
+    "cvar_lambda": 0.22,
+    "chance_alpha": 0.95,
+    "min_system_reliability": null,
+    "dimension_penalty_weight": 8000.0,
+    "assembly_quality_loss_weight": 20000.0,
+    "life_gap_penalty_weight": 0.08,
+    "compatibility_penalty_weight": 12000.0,
+    "soft_pair_penalty_rmb": 35000.0,
+    "assembly_shortfall_penalty_rmb": 250000.0,
+    "assembly_risk_weight": 0.22,
+    "risk_budget_reference_rmb": 81805.27,
+    "time_limit_per_solve": 120.0,
+    "mip_rel_gap": 0.0001
+  }
+}

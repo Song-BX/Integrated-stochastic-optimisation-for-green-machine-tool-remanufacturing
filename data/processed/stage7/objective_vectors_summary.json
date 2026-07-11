@@ -1,0 +1,24 @@
+{
+  "generated_at_utc": "2026-06-17T03:04:23.851168+00:00",
+  "economic_risk": {
+    "length": 21434,
+    "nonzero_count": 20192,
+    "min_coefficient": 0.0,
+    "max_coefficient": 80689.29,
+    "finite": true
+  },
+  "environmental_impact": {
+    "length": 21434,
+    "nonzero_count": 6388,
+    "min_coefficient": 0.0,
+    "max_coefficient": 2500.0,
+    "finite": true
+  },
+  "assembly_quality_loss": {
+    "length": 21434,
+    "nonzero_count": 675,
+    "min_coefficient": 0.0,
+    "max_coefficient": 250000.0,
+    "finite": true
+  }
+}

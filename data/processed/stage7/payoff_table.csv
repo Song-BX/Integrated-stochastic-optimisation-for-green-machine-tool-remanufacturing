@@ -1,0 +1,4 @@
+﻿payoff_name,success,status,message,fallback_used,economic_risk,environmental_impact,assembly_quality_loss
+economic_risk_anchor,True,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False,6702999.934738979,2672.1383066666667,2436450.474458976
+environmental_ideal,True,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False,7019060.884562268,0.0,0.0
+assembly_ideal,True,0,Optimization terminated successfully. (HiGHS Status 7: Optimal),False,7019060.884562265,0.0,0.0
