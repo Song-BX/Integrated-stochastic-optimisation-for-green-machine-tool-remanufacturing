@@ -1,0 +1,126 @@
+{
+  "generated_at_utc": "2026-06-17T02:32:25.022851+00:00",
+  "instance": {
+    "machine_type_id": "CK6150",
+    "machine_family": "cnc_lathe",
+    "period_start": "T0001",
+    "period_end": "T0052",
+    "period_count": 52,
+    "scenario_count": 9,
+    "scenario_ids": [
+      "S001",
+      "S004",
+      "S009",
+      "S012",
+      "S013",
+      "S018",
+      "S019",
+      "S022",
+      "S025"
+    ],
+    "component_types": [
+      "ball_screw",
+      "bed",
+      "chuck",
+      "cnc_controller",
+      "guideway",
+      "hydraulic_system",
+      "servo_axis",
+      "spindle",
+      "tailstock",
+      "turret"
+    ],
+    "route_ids": [
+      "R6"
+    ],
+    "resource_types": [
+      "assembly",
+      "cleaning",
+      "drying",
+      "grinding",
+      "heat_treatment",
+      "incoming_inspection",
+      "inspection",
+      "inventory",
+      "laser",
+      "machining",
+      "manual_scraping",
+      "procurement",
+      "quality_monitoring",
+      "reliability_assessment",
+      "scrap_handling",
+      "testing",
+      "waste_treatment"
+    ],
+    "expected_demand_units": 17.492459785047387,
+    "candidate_core_count": 15,
+    "component_instance_count": 130,
+    "min_required_life_h": 10000.0,
+    "target_quality_score": 0.7,
+    "machine_summary": {
+      "selling_price": 118000.0,
+      "remanufacturing_cost_base_rmb": 72000.0,
+      "estimated_core_acquisition_cost_rmb": 28000.0,
+      "annual_demand_weight": 1.0,
+      "capacity_share": 0.11210762331838565
+    },
+    "min_system_reliability": 0.93,
+    "chance_alpha": 0.95,
+    "stage4_route_candidate_count": 21926,
+    "stage5_route_candidate_count": 1188,
+    "chance_pass_rate": 0.05418224938429262,
+    "assembly_time_granularity": "scenario_total",
+    "pairwise_mode": "sparse_exact",
+    "candidate_pool_mode": "stage5_consistent_with_new_backup",
+    "assembly_requirement_count": 6,
+    "assembly_candidate_count": 80,
+    "assembly_pair_count": 69,
+    "assembly_pool_summary": {
+      "requirement_count": 6,
+      "candidate_count": 80,
+      "pair_count": 69,
+      "new_backup_candidate_count": 80,
+      "old_stage5_candidate_count": 0,
+      "hard_pair_count": 63,
+      "soft_pair_count": 6,
+      "by_requirement": {
+        "AR_CK6150_01_spindle_radial_runout": {
+          "candidate_count": 13,
+          "pair_count": 21,
+          "hard_pair_count": 16,
+          "soft_pair_count": 5
+        },
+        "AR_CK6150_02_spindle_bed_parallelism": {
+          "candidate_count": 10,
+          "pair_count": 9,
+          "hard_pair_count": 9,
+          "soft_pair_count": 0
+        },
+        "AR_CK6150_03_guideway_pair_parallelism": {
+          "candidate_count": 5,
+          "pair_count": 2,
+          "hard_pair_count": 2,
+          "soft_pair_count": 0
+        },
+        "AR_CK6150_04_feed_axis_backlash": {
+          "candidate_count": 24,
+          "pair_count": 24,
+          "hard_pair_count": 23,
+          "soft_pair_count": 1
+        },
+        "AR_CK6150_05_tailstock_coaxiality": {
+          "candidate_count": 6,
+          "pair_count": 2,
+          "hard_pair_count": 2,
+          "soft_pair_count": 0
+        },
+        "AR_CK6150_06_turret_tool_position_repeatability": {
+          "candidate_count": 22,
+          "pair_count": 11,
+          "hard_pair_count": 11,
+          "soft_pair_count": 0
+        }
+      }
+    }
+  }
+}
