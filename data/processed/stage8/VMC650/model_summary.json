@@ -1,0 +1,68 @@
+{
+  "generated_at_utc": "2026-06-17T04:06:37.958139+00:00",
+  "model_summary": {
+    "variable_count": 21729,
+    "constraint_count": 15012,
+    "binary_variable_count": 2839,
+    "general_integer_variable_count": 10924,
+    "integer_variable_count": 13763,
+    "objective_vector_summary": {
+      "economic_risk": {
+        "length": 21729,
+        "nonzero_count": 20712,
+        "min_coefficient": 0.0,
+        "max_coefficient": 133649.27,
+        "finite": true
+      },
+      "environmental_impact": {
+        "length": 21729,
+        "nonzero_count": 7216,
+        "min_coefficient": 0.0,
+        "max_coefficient": 2476.8519166666665,
+        "finite": true
+      },
+      "assembly_quality_loss": {
+        "length": 21729,
+        "nonzero_count": 369,
+        "min_coefficient": 0.0,
+        "max_coefficient": 250000.0,
+        "finite": true
+      }
+    },
+    "restriction_summary": {
+      "route_variable_count": 2016,
+      "candidate_variable_count": 495,
+      "pair_variable_count": 315,
+      "unrestricted_variable_count": 18903
+    }
+  },
+  "objective_vector_summary": {
+    "economic_risk": {
+      "length": 21729,
+      "nonzero_count": 20712,
+      "min_coefficient": 0.0,
+      "max_coefficient": 133649.27,
+      "finite": true
+    },
+    "environmental_impact": {
+      "length": 21729,
+      "nonzero_count": 7216,
+      "min_coefficient": 0.0,
+      "max_coefficient": 2476.8519166666665,
+      "finite": true
+    },
+    "assembly_quality_loss": {
+      "length": 21729,
+      "nonzero_count": 369,
+      "min_coefficient": 0.0,
+      "max_coefficient": 250000.0,
+      "finite": true
+    }
+  },
+  "restriction_summary": {
+    "route_variable_count": 2016,
+    "candidate_variable_count": 495,
+    "pair_variable_count": 315,
+    "unrestricted_variable_count": 18903
+  }
+}

@@ -1,0 +1,9 @@
+﻿operator_name,description
+initial_repair,Solve the conservative initial restricted MILP.
+route_expand,Open additional low-cost route-period choices for selected components.
+route_swap,Replace part of the route pool with alternative feasible routes.
+pair_expand,Open more compatible assembly pairs for shortfall-prone requirements.
+quality_repair,"Prefer pairs with low dimension, quality, and life-gap loss."
+carbon_focus,Prefer low-carbon route and procurement alternatives.
+risk_focus,Prefer routes with low warranty/tail-risk coefficients.
+random_shake,Seeded random perturbation of route and pair pools.

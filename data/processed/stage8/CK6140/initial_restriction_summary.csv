@@ -1,0 +1,4 @@
+﻿variable_group,allowed_count,total_count,restricted_count,allowed_share
+x,252,1980,1728,0.12727272727272726
+select_candidate,684,684,0,1.0
+select_pair,486,522,36,0.9310344827586207

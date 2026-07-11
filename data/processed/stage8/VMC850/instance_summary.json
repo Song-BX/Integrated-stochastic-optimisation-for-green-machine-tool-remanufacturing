@@ -1,0 +1,129 @@
+{
+  "generated_at_utc": "2026-06-17T04:02:31.732120+00:00",
+  "instance": {
+    "machine_type_id": "VMC850",
+    "machine_family": "vertical_machining_center",
+    "period_start": "T0001",
+    "period_end": "T0052",
+    "period_count": 52,
+    "scenario_count": 9,
+    "scenario_ids": [
+      "S001",
+      "S004",
+      "S009",
+      "S012",
+      "S013",
+      "S018",
+      "S019",
+      "S022",
+      "S025"
+    ],
+    "component_types": [
+      "ball_screw",
+      "bed",
+      "cnc_controller",
+      "column",
+      "coolant_lubrication_system",
+      "guideway",
+      "servo_axis",
+      "spindle",
+      "tool_magazine",
+      "worktable"
+    ],
+    "route_ids": [
+      "R6"
+    ],
+    "resource_types": [
+      "assembly",
+      "cleaning",
+      "drying",
+      "grinding",
+      "heat_treatment",
+      "incoming_inspection",
+      "inspection",
+      "inventory",
+      "laser",
+      "machining",
+      "manual_scraping",
+      "procurement",
+      "quality_monitoring",
+      "reliability_assessment",
+      "scrap_handling",
+      "testing",
+      "waste_treatment"
+    ],
+    "expected_demand_units": 16.021112599876687,
+    "candidate_core_count": 13,
+    "component_instance_count": 64,
+    "min_required_life_h": 12000.0,
+    "target_quality_score": 0.7,
+    "machine_summary": {
+      "selling_price": 306000.0,
+      "remanufacturing_cost_base_rmb": 196000.0,
+      "estimated_core_acquisition_cost_rmb": 72000.0,
+      "annual_demand_weight": 1.0,
+      "capacity_share": 0.11210762331838565
+    },
+    "min_system_reliability": 0.94,
+    "chance_alpha": 0.95,
+    "stage4_route_candidate_count": 7912,
+    "stage5_route_candidate_count": 936,
+    "chance_pass_rate": 0.11830131445904954,
+    "assembly_time_granularity": "scenario_total",
+    "pairwise_mode": "sparse_exact",
+    "candidate_pool_mode": "stage5_consistent_with_new_backup",
+    "assembly_requirement_count": 6,
+    "assembly_candidate_count": 43,
+    "assembly_pair_count": 25,
+    "assembly_pool_summary": {
+      "requirement_count": 6,
+      "candidate_count": 43,
+      "pair_count": 25,
+      "new_backup_candidate_count": 43,
+      "old_stage5_candidate_count": 0,
+      "hard_pair_count": 21,
+      "soft_pair_count": 4,
+      "by_requirement": {
+        "AR_VMC850_01_spindle_table_perpendicularity": {
+          "candidate_count": 2,
+          "pair_count": 0,
+          "hard_pair_count": 0,
+          "soft_pair_count": 0
+        },
+        "AR_VMC850_02_xy_axis_squareness": {
+          "candidate_count": 9,
+          "pair_count": 9,
+          "hard_pair_count": 9,
+          "soft_pair_count": 0
+        },
+        "AR_VMC850_03_z_axis_positioning_repeatability": {
+          "candidate_count": 7,
+          "pair_count": 2,
+          "hard_pair_count": 2,
+          "soft_pair_count": 0
+        },
+        "AR_VMC850_04_worktable_flatness_and_tslot": {
+          "candidate_count": 4,
+          "pair_count": 0,
+          "hard_pair_count": 0,
+          "soft_pair_count": 0
+        },
+        "AR_VMC850_05_tool_change_alignment": {
+          "candidate_count": 3,
+          "pair_count": 1,
+          "hard_pair_count": 0,
+          "soft_pair_count": 1
+        },
+        "AR_VMC850_06_machine_volumetric_accuracy": {
+          "candidate_count": 18,
+          "pair_count": 13,
+          "hard_pair_count": 10,
+          "soft_pair_count": 3
+        }
+      }
+    },
+    "multiobjective_method": "augmented_epsilon_constraint",
+    "heuristic_method": "alns_milp_repair",
+    "pareto_mode": "approximate_augmented_epsilon"
+  }
+}
